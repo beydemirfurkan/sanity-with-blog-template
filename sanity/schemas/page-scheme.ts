@@ -1,29 +1,28 @@
-const pages = {
-    name: 'page',
-    title: 'Pages',
-    type: 'document',
+const page = {
+    name: "page",
+    title: "Pages",
+    type: "document",
     fields: [
         {
-            name: 'title',
-            title: 'Page Title',
-            type: 'string',
+            name: "title",
+            title: "Title",
+            type: "string"
         },
         {
-            name: 'slug',
-            title: 'Slug',
-            type: 'slug',
-            options: {
-                source: 'title',
-                maxLength: 96,
-            }
+            name: "slug",
+            title: "Slug",
+            type: "slug",
+            options: { source: "title", maxLength: 96 }
         },
         {
-            name: 'content',
-            title: 'Page Content',
-            type: 'array',
-            of: [{ type: 'block' }],
-        },
-    ],
+            name: "content",
+            title: "Content",
+            type: "array",
+            of: [
+                { type: "block" }
+            ]
+        }
+    ]
 }
 
-export default pages;
+export default page;
