@@ -45,9 +45,7 @@ export default async function RootLayout({
               </svg> beydemir.dev
             </Link>
 
-
             <ul className="flex items-center gap-2 sm:gap-5 text-sm font-bold text-slate-900 dark:text-white">
-
               {/* Dynamic Page  */}
 
               {/*{pages.map((page) => (*/}
@@ -57,7 +55,6 @@ export default async function RootLayout({
               {/*))}*/}
 
               {/* END Dynamic Page */}
-
               <li>
                 <Link className='' href='/blog'>blog</Link>
               </li>
