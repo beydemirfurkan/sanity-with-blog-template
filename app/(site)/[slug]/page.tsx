@@ -10,8 +10,9 @@ export default async function Page ({params} : Props) {
 
     return (
         <>
-            <h2 className="mt-24 font-extrabold text-6xl">{page.title}</h2>
-            <div className="py-14"><PortableText value={page.content}/></div>
+            {page.title &&  <h2 className="mt-24 font-extrabold text-6xl">{page.title}</h2>}
+            {page.content &&  <div className="py-14"><PortableText value={page.content}/></div>}
+
         </>
     )
 }
