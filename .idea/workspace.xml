@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="250a1cfe-402b-4351-bd51-d68d55bddd96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/app/(site)/blog/[post]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/projects/[project]/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(site)/projects/__test_layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/sanity-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/sanity-utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/schemas/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanity/schemas/project-schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/blog-schema.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/types/Project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/Blog.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2PT6sVm28iCNdBFe56jM5qGisDz" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "ts.external.directory.path": "C:\\Users\\furka\\Desktop\\www\\sanity_blog_front\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="250a1cfe-402b-4351-bd51-d68d55bddd96" name="Changes" comment="" />
+      <created>1683468933946</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683468933946</updated>
+      <workItem from="1683468935647" duration="2819000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
