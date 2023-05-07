@@ -10,7 +10,7 @@ export default async function Home() {
         <section>
             {/* notice - end */}
             <div className="flex flex-col items-center max-w-xl pt-32 pb-16 mx-auto text-center">
-                <h1 className="mb-8 text-4xl font-bold text-black-800 sm:text-5xl md:mb-6 md:text-6xl dark:text-white">tüm yazılar</h1>
+                <h1 className="text-4xl font-bold text-black-800 sm:text-5xl md:mb-6 md:text-6xl dark:text-white pl-10">tüm yazılar ✍🏽</h1>
             </div>
         </section>
         
