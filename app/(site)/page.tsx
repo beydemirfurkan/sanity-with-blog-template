@@ -7,8 +7,19 @@ export default async function Home() {
 
   return (
     <>
-      <h2 className="mt-24 font-extrabold text-6xl">Keyifli okumalar...</h2>
-      <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <section>
+            {/* notice - end */}
+            <div className="flex max-w-xl flex-col items-center pt-8 pb-0 text-center sm:pb-16 mx-auto lg:pt-32 lg:pb-32">
+                <p className="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">Very proud to introduce</p>
+                <h1 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Revolutionary way to build the web</h1>
+                <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 xl:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares characteristics of real text.</p>
+                <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
+                    <Link href="#" className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Okumaya Başla</Link>
+                    <Link href="#" className="inline-block rounded-lg border bg-white px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base">İletişim</Link>
+                </div>
+            </div>
+        </section>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-24">
         {projects.map((project) => (
           <article
             key={project._id}
