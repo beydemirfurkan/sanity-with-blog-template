@@ -2,3 +2,47 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+	.blog-content a {
+		@apply underline font-semibold text-gray-600 dark:text-[#34d399]
+	}
+	.blog-content p {
+		@apply pb-4 text-gray-600 dark:text-[#a1a1aa]
+	}
+	.blog-content li {
+		@apply pb-2 text-gray-600 dark:text-[#a1a1aa]
+	}
+
+	.blog-content strong {
+		@apply font-semibold text-slate-900 dark:text-[#34d399]
+	}
+
+	.blog-content h1 {
+		@apply inline-block text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight dark:text-slate-200
+	}
+	.blog-content h2 {
+		@apply inline-block text-xl sm:text-2xl font-extrabold text-slate-900 tracking-tight dark:text-slate-200
+	}
+	.blog-content pre {
+		@apply bg-[#1e293b]  overflow-x-auto font-[400] text-[#f8fafc]
+	}
+	.blog-content code, .blog-content code * {
+		@apply text-[#f8fafc] font-[400] text-sm bg-[#1e293b] dark:bg-[#1d1d20] p-1.5 rounded-md;
+	}
+	.blog-content blockquote {
+		@apply border-[#1e293b] p-6 rounded-xl bg-[#1e293b] text-[#f8fafc] font-[400] my-4 dark:bg-[#1d1d20] dark:border dark:border-zinc-400
+	}
+}
+
+@layer components {
+	.button-dark {
+		@apply flex items-center justify-center w-full px-6 font-semibold text-white rounded-lg bg-slate-900 hover:bg-slate-700 focus:outline-none focus:ring-2 focus:ring-slate-400 sm:w-auto dark:bg-emerald-400/10 dark:text-emerald-400 dark:ring-1 dark:ring-inset dark:ring-emerald-400/20 dark:hover:bg-emerald-400/10 dark:hover:text-emerald-300 dark:hover:ring-emerald-300
+	}
+	.button-light {
+		@apply inline-block px-8 py-3 text-sm font-semibold text-center text-gray-500 transition duration-100 bg-white border rounded-lg outline-none ring-indigo-300 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base dark:bg-transparent dark:text-zinc-400 dark:ring-white/10 dark:hover:bg-white/5 dark:hover:text-white
+	}
+	
+	.post-item {
+		@apply p-6 transition-shadow rounded-2xl bg-zinc-50 hover:shadow-md hover:shadow-zinc-900/5 dark:bg-zinc-900 shadow-md dark:ring-1 dark:ring-white/10
+	}
+}

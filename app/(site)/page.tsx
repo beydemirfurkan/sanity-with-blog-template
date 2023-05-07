@@ -1,39 +1,40 @@
-import { getProjects } from "@/sanity/sanity-utils";
+import { getPosts } from "@/sanity/sanity-utils";
 import Link from "next/link";
 import { PortableText } from "@portabletext/react";
 
 export default async function Home() {
-  const projects = await getProjects();
+  const posts = await getPosts();
 
   return (
     <>
         <section>
             {/* notice - end */}
-            <div className="flex max-w-xl flex-col items-center pt-8 pb-0 text-center sm:pb-16 mx-auto lg:pt-32 lg:pb-32">
-                <p className="mb-4 font-semibold text-indigo-500 md:mb-6 md:text-lg xl:text-xl">Very proud to introduce</p>
-                <h1 className="text-black-800 mb-8 text-4xl font-bold sm:text-5xl md:mb-12 md:text-6xl">Revolutionary way to build the web</h1>
-                <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 xl:text-lg">This is a section of some simple filler text, also known as placeholder text. It shares characteristics of real text.</p>
+            <div className="flex flex-col items-center max-w-xl pt-8 pb-16 mx-auto text-center lg:pt-32 lg:pb-32">
+                <p className='my-6 flex gap-2.5 rounded-2xl border border-emerald-500/20 bg-emerald-50/50 p-4 leading-6 text-emerald-900 dark:border-emerald-500/30 dark:bg-emerald-500/5 dark:text-emerald-200 dark:[--tw-prose-links-hover:theme(colors.emerald.300)] dark:[--tw-prose-links:theme(colors.white)]'>@furkanbeydemir | frontend-developer</p>
+                <h1 className="mb-8 text-4xl font-bold text-black-800 sm:text-5xl md:mb-6 md:text-6xl dark:text-white">selam ben furkan!</h1>
+                <p className="mb-8 leading-relaxed text-gray-500 md:mb-12 xl:text-lg dark:text-gray-300">günlük hayatta karşılaştığım problemleri ve araştırmalarım sonucu edindiğim bilgileri bulabileceğiniz ufak çaplı bir blog :)</p>
                 <div className="flex w-full flex-col gap-2.5 sm:flex-row sm:justify-center">
-                    <Link href="#" className="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base">Okumaya Başla</Link>
-                    <Link href="#" className="inline-block rounded-lg border bg-white px-8 py-3 text-center text-sm font-semibold text-gray-500 outline-none ring-indigo-300 transition duration-100 hover:bg-gray-100 focus-visible:ring active:bg-gray-200 md:text-base">İletişim</Link>
+                    <Link href="/blog" className="button-dark">Okumaya Başla</Link>
+                    <Link href="/contact" className="button-light">İletişim</Link>
                 </div>
             </div>
         </section>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pb-24">
-        {projects.map((project) => (
+        
+      <div className="grid grid-cols-1 gap-8 pb-24 md:grid-cols-2">
+        {posts.map((post) => (
           <article
-            key={project._id}
-            className="rounded-lg border border-gray-100 bg-white p-4 shadow-sm transition hover:shadow-lg sm:p-6"
+            key={post._id}
+            className="post-item"
           >
-            <h3 className="mt-0.5 text-lg font-medium text-gray-900">
-              {project.name}
+            <h3 className="mt-0.5 text-lg font-bold text-gray-900 dark:text-gray-100">
+              {post.name}
             </h3>
-            <div className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-              <PortableText value={project.content} />
+            <div className="mt-2 text-gray-500 line-clamp-3 text-sm/relaxed">
+              <PortableText value={post.content} />
             </div>
             <Link
-              href={`/projects/${project.slug}`}
-              className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
+              href={`/blog/${post.slug}`}
+              className="inline-flex items-center gap-1 mt-4 text-sm font-medium text-emerald-500 hover:text-emerald-600 dark:text-emerald-400"
             >
               Devamını gör
               <span
