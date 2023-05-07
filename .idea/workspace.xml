@@ -4,21 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="250a1cfe-402b-4351-bd51-d68d55bddd96" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(site)/blog/[post]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(site)/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/projects/[project]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/projects/__test_layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+    <list default="true" id="250a1cfe-402b-4351-bd51-d68d55bddd96" name="Changes" comment="theme changed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/sanity-utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/sanity-utils.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemas/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/schemas/project-schema.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/schemas/blog-schema.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/Project.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/Blog.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +43,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\furka\Desktop\www\sanity_blog_front\app" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,11 +56,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1683468933946</updated>
-      <workItem from="1683468935647" duration="2819000" />
+      <workItem from="1683468935647" duration="3171000" />
     </task>
+    <task id="LOCAL-00001" summary="theme changed">
+      <created>1683472205710</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683472205710</updated>
+    </task>
+    <task id="LOCAL-00002" summary="theme changed">
+      <created>1683472221548</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683472221548</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="theme changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="theme changed" />
   </component>
 </project>
