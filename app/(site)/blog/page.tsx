@@ -23,7 +23,7 @@ export default async function Home() {
             <h3 className="mt-0.5 text-lg font-bold text-gray-900 dark:text-gray-100">
               {post.name}
             </h3>
-            <div className="mt-2 text-gray-500 line-clamp-3 text-sm/relaxed">
+            <div className="mt-2 text-gray-500 line-clamp-3 text-sm/relaxed h-[70px]">
               <PortableText value={post.content} />
             </div>
             <Link
