@@ -33,7 +33,7 @@
 		@apply border-[#1e293b] p-6 rounded-xl bg-[#1e293b] text-[#f8fafc] font-[400] my-4 dark:bg-[#1d1d20] dark:border dark:border-zinc-400
 	}
 	input, textarea {
-		@apply border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:text-white  bg-zinc-50 hover:shadow-md hover:shadow-zinc-900/5 dark:bg-zinc-900 shadow-md dark:ring-1 dark:ring-white/10
+		@apply border border-gray-300 dark:border-gray-900 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5 dark:text-white  bg-zinc-50 hover:shadow-md hover:shadow-zinc-900/5 dark:bg-zinc-900 shadow-md dark:ring-1 dark:ring-white/10
 	}
 
 }

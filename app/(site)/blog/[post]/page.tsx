@@ -17,10 +17,10 @@ export default async function Post({ params } : Props) {
   return (
       <>
           <div className="mx-auto max-w-8xl">
-              <div className="flex px-4 pt-8 lg:px-8">
+              <div className="flex px-4 lg:px-0 pt-8">
                   <Link className="flex text-sm font-semibold leading-6 group text-slate-700 hover:text-slate-900 dark:text-white dark:hover:text-emerald-300" href="/blog">
                       <svg viewBox="0 -9 3 24" className="w-auto h-6 mr-3 overflow-visible text-slate-400 group-hover:text-slate-600 dark:group-hover:text-slate-600">
-                          <path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /></svg>Go back</Link>
+                          <path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /></svg>önceki sayfa</Link>
               </div>
           </div>
           <div className="max-w-4xl mx-auto my-24">
