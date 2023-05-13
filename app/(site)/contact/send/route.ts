@@ -32,5 +32,3 @@ export async function POST(req: NextApiRequest, res: NextApiResponse) {
     res.status(500).json({ error: 'Internal Server Error' });
   }
 };
-
-export default POST;
