@@ -24,7 +24,7 @@ export default function Contact() {
     handleSubmit,
   } = useForm();
   const onSubmit: SubmitHandler<Record<string, any>> = (data) => {
-    fetch("/contact/send", {
+    fetch("/", {
       method: "POST",
       body: JSON.stringify(data),
     });
