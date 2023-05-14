@@ -8,7 +8,6 @@ type Props = {
     params: { post: string }
 };
 
-
 export default async function Post({ params } : Props) {
 
     const slug = params.post
@@ -16,18 +15,14 @@ export default async function Post({ params } : Props) {
 
   return (
       <>
-          <div className="mx-auto max-w-8xl">
-              <div className="flex px-4 lg:px-0 pt-8">
-                  <Link className="flex text-sm font-semibold leading-6 group text-slate-700 hover:text-slate-900 dark:text-white dark:hover:text-emerald-300" href="/blog">
-                      <svg viewBox="0 -9 3 24" className="w-auto h-6 mr-3 overflow-visible text-slate-400 group-hover:text-slate-600 dark:group-hover:text-slate-600">
-                          <path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /></svg>önceki sayfa</Link>
-              </div>
-          </div>
           <div className="max-w-4xl mx-auto my-24">
-              <dd className="inset-x-0 flex items-center gap-2 mb-3 text-slate-700 dark:text-gray-300"><BsCalendar2Date/> <time>{new Date(post._createdAt).toLocaleDateString()}</time></dd>
-              <h1 className="inline-block text-2xl font-extrabold tracking-tight sm:text-3xl text-slate-900 dark:text-slate-200">{post.name}</h1>
-
-              {/* image goes here */}
+              <div className="flex px-4 lg:px-0 py-8">
+                  <Link className="flex text-sm font-semibold leading-6 group text-slate-500  dark:text-white dark:hover:text-emerald-300" href={"/blog"}>
+                      <svg viewBox="0 -9 3 24" className="w-auto h-6 mr-3 overflow-visible text-slate-500">
+                          <path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /></svg> geri dön</Link>
+              </div>
+              {/*<dd className="inset-x-0 flex items-center gap-2 mb-3 text-slate-700 dark:text-gray-300"><BsCalendar2Date/> <time>{new Date(post._createdAt).toLocaleDateString()}</time></dd>*/}
+              <h1 className="inline-block text-2xl font-extrabold tracking-tight sm:text-4xl text-slate-900 dark:text-slate-200 capitalize">{post.name}</h1>
               {post.image && (
                   <Image
                       src={post.image}
@@ -36,8 +31,7 @@ export default async function Post({ params } : Props) {
                       height={1080}
                       className="object-cover mt-10 border-2 border-gray-700 rounded-xl" />
               )}
-              {/* content goes here */}
-              <div className="py-12 text-md leading-8 text-[#334155] mx-auto blog-content"><PortableText value={post.content}/></div>
+              <div className="pt-8 pb-8 text-md leading-8 text-[#334155] mx-auto blog-content"><PortableText value={post.content}/></div>
 
           </div>
       </>

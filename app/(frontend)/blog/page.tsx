@@ -20,7 +20,7 @@ export default async function Home() {
             key={post._id}
             className="post-item"
           >
-            <h3 className="mt-0.5 text-lg font-bold text-gray-900 dark:text-gray-100">
+            <h3 className="mt-0.5 text-lg font-bold text-gray-900 dark:text-gray-100 leading-6 capitalize">
               {post.name}
             </h3>
             <div className="mt-2 text-gray-500 line-clamp-3 text-sm/relaxed h-[70px]">
@@ -30,7 +30,7 @@ export default async function Home() {
               href={`/blog/${post.slug}`}
               className="inline-flex items-center gap-1 mt-4 text-sm font-medium text-emerald-500 hover:text-emerald-600 dark:text-emerald-400"
             >
-              Devamını gör
+              devamını gör
               <span
                 aria-hidden="true"
                 className="block transition-all group-hover:ms-0.5 rtl:rotate-180"

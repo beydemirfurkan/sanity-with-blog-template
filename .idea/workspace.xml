@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="250a1cfe-402b-4351-bd51-d68d55bddd96" name="Changes" comment="theme changed">
-      <change afterPath="$PROJECT_DIR$/app/(frontend)/blog/[post]/loading.tsx" afterDir="false" />
+    <list default="true" id="250a1cfe-402b-4351-bd51-d68d55bddd96" name="Changes" comment="eslint edit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/[slug]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/blog/[post]/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/blog/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/contact/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(site)/page.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanity/config/client-config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/sanity/config/client-config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(frontend)/blog/[post]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(frontend)/blog/[post]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(frontend)/blog/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(frontend)/blog/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +64,7 @@
       <workItem from="1683468935647" duration="3221000" />
       <workItem from="1683493951375" duration="1708000" />
       <workItem from="1683971168015" duration="4064000" />
-      <workItem from="1684054952489" duration="1176000" />
+      <workItem from="1684054952489" duration="2572000" />
     </task>
     <task id="LOCAL-00001" summary="theme changed">
       <created>1683472205710</created>
@@ -117,14 +108,31 @@
       <option name="project" value="LOCAL" />
       <updated>1683495781845</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="eslint edit">
+      <created>1684056348219</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1684056348219</updated>
+    </task>
+    <task id="LOCAL-00008" summary="eslint edit">
+      <created>1684056369715</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684056369715</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="theme changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="theme changed" />
+    <MESSAGE value="eslint edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="eslint edit" />
   </component>
 </project>
