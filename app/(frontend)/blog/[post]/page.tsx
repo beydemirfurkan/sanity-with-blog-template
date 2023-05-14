@@ -22,7 +22,7 @@ export default async function Post({ params } : Props) {
                           <path d="M3 0L0 3L3 6" fill="none" stroke="currentColor" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" /></svg> geri dön</Link>
               </div>
               {/*<dd className="inset-x-0 flex items-center gap-2 mb-3 text-slate-700 dark:text-gray-300"><BsCalendar2Date/> <time>{new Date(post._createdAt).toLocaleDateString()}</time></dd>*/}
-              <h1 className="inline-block text-2xl font-extrabold tracking-tight sm:text-4xl text-slate-900 dark:text-slate-200 capitalize">{post.name}</h1>
+              <h1 className="inline-block text-2xl font-extrabold tracking-tight sm:text-4xl text-slate-900 dark:text-slate-200">{post.name}</h1>
               {post.image && (
                   <Image
                       src={post.image}
