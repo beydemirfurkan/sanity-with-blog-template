@@ -20,7 +20,7 @@ export default async function Home() {
             key={post._id}
             className="post-item"
           >
-            <h3 className="mt-0.5 text-lg font-bold text-gray-900 dark:text-gray-100 leading-6">
+            <h3 className="mt-0.5 text-lg font-bold text-gray-900 dark:text-gray-100 leading-6 ">
               {post.name}
             </h3>
             <div className="mt-2 text-gray-500 line-clamp-3 text-sm/relaxed h-[70px]">
