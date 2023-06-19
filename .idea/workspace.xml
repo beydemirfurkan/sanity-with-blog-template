@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="250a1cfe-402b-4351-bd51-d68d55bddd96" name="Changes" comment="eslint edit">
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-    </list>
+    <list default="true" id="250a1cfe-402b-4351-bd51-d68d55bddd96" name="Changes" comment="eslint edit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +60,7 @@
       <workItem from="1683468935647" duration="3221000" />
       <workItem from="1683493951375" duration="1708000" />
       <workItem from="1683971168015" duration="4064000" />
-      <workItem from="1684054952489" duration="2908000" />
+      <workItem from="1684054952489" duration="3613000" />
     </task>
     <task id="LOCAL-00001" summary="theme changed">
       <created>1683472205710</created>
@@ -141,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684057813481</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="eslint edit">
+      <created>1684057993291</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1684057993291</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
