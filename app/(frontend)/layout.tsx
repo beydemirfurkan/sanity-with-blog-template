@@ -1,5 +1,5 @@
 
-import { getPages } from "@/sanity/sanity-utils";
+// import { getPages } from "@/sanity/sanity-utils";
 import "../globals.css";
 import { Inter } from "next/font/google";
 import Link from "next/link";
@@ -18,14 +18,14 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
 
-  const pages = await getPages();
+  // const pages = await getPages();
 
 
   return (
     <html lang="en">
       <body className={inter.className}>
         <Providers>
-          <div  className="min-h-screen bg-white dark:text-slate-400 dark:bg-zinc-900 transition-colors duration-500" >
+          <div  className="min-h-screen transition-colors duration-500 bg-white dark:text-slate-400 dark:bg-zinc-900" >
             <header className='sticky top-0  w-full backdrop-blur flex-none transition-colors duration-500 z-50 border-b border-slate-900/10 dark:border-slate-50/[0.06] bg-white/95 supports-backdrop-blur:bg-white/60 dark:bg-transparent '>
             <nav
                 aria-label="Site Nav"
@@ -45,7 +45,7 @@ export default async function RootLayout({
                 </svg> beydemir.dev
               </Link>
 
-              <ul className="flex items-center gap-2 sm:gap-5 text-sm font-bold text-slate-900 dark:text-white">
+              <ul className="flex items-center gap-2 text-sm font-bold sm:gap-5 text-slate-900 dark:text-white">
                 <li>
                   <Link className='' href={'/blog'}>blog</Link>
                 </li>
