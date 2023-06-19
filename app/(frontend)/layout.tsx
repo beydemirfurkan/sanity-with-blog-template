@@ -18,8 +18,6 @@ export default async function RootLayout({
   children: React.ReactNode;
 }) {
 
-  // const pages = await getPages();
-
 
   return (
     <html lang="en">
